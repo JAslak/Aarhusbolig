@@ -1,0 +1,168 @@
+<VRTDataset rasterXSize="4736" rasterYSize="4063">
+  <SRS dataAxisToSRSAxisMapping="2,1">GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform>  2.0407915746356107e+01,  2.4999999368446879e-05,  0.0000000000000000e+00, -3.3973244360745547e+01,  0.0000000000000000e+00, -2.4999999368446879e-05</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">228</MDI>
+      <MDI key="STATISTICS_MEAN">88.196368338206</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">20.839581968022</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <ColorInterp>Red</ColorInterp>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/home/lemon_king/Documents/Programmering/QGIS/QGIS-Training-Data-master/exercise_data/raster/3320C_2010_314_RGB_LATLNG.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3701" RasterYSize="1098" DataType="Byte" BlockXSize="3701" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="3701" ySize="1098" />
+      <DstRect xOff="0" yOff="0" xSize="3701" ySize="1098" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/home/lemon_king/Documents/Programmering/QGIS/QGIS-Training-Data-master/exercise_data/raster/3320D_2010_315_RGB_LATLNG.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1089" RasterYSize="1093" DataType="Byte" BlockXSize="1089" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1089" ySize="1093" />
+      <DstRect xOff="3641.70758540116" yOff="4.60570637880264" xSize="1089" ySize="1093" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/home/lemon_king/Documents/Programmering/QGIS/QGIS-Training-Data-master/exercise_data/raster/3420B_2010_328_RGB_LATLNG.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1098" RasterYSize="3039" DataType="Byte" BlockXSize="1098" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1098" ySize="3038.61074145557" />
+      <DstRect xOff="3637.96152652801" yOff="1024.38925854443" xSize="1098" ySize="3038.61074145557" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/home/lemon_king/Documents/Programmering/QGIS/QGIS-Training-Data-master/exercise_data/raster/3420C_2010_327_RGB_LATLNG.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3714" RasterYSize="3012" DataType="Byte" BlockXSize="3714" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="3714" ySize="3012" />
+      <DstRect xOff="0.984897352094785" yOff="1050.48968985156" xSize="3714" ySize="3012" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">240</MDI>
+      <MDI key="STATISTICS_MEAN">102.02103946481</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">21.324437247033</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <ColorInterp>Green</ColorInterp>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/home/lemon_king/Documents/Programmering/QGIS/QGIS-Training-Data-master/exercise_data/raster/3320C_2010_314_RGB_LATLNG.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="3701" RasterYSize="1098" DataType="Byte" BlockXSize="3701" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="3701" ySize="1098" />
+      <DstRect xOff="0" yOff="0" xSize="3701" ySize="1098" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/home/lemon_king/Documents/Programmering/QGIS/QGIS-Training-Data-master/exercise_data/raster/3320D_2010_315_RGB_LATLNG.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="1089" RasterYSize="1093" DataType="Byte" BlockXSize="1089" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1089" ySize="1093" />
+      <DstRect xOff="3641.70758540116" yOff="4.60570637880264" xSize="1089" ySize="1093" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/home/lemon_king/Documents/Programmering/QGIS/QGIS-Training-Data-master/exercise_data/raster/3420B_2010_328_RGB_LATLNG.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="1098" RasterYSize="3039" DataType="Byte" BlockXSize="1098" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1098" ySize="3038.61074145557" />
+      <DstRect xOff="3637.96152652801" yOff="1024.38925854443" xSize="1098" ySize="3038.61074145557" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/home/lemon_king/Documents/Programmering/QGIS/QGIS-Training-Data-master/exercise_data/raster/3420C_2010_327_RGB_LATLNG.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="3714" RasterYSize="3012" DataType="Byte" BlockXSize="3714" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="3714" ySize="3012" />
+      <DstRect xOff="0.984897352094785" yOff="1050.48968985156" xSize="3714" ySize="3012" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">224</MDI>
+      <MDI key="STATISTICS_MEAN">100.40112716438</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">17.860219915832</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <ColorInterp>Blue</ColorInterp>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/home/lemon_king/Documents/Programmering/QGIS/QGIS-Training-Data-master/exercise_data/raster/3320C_2010_314_RGB_LATLNG.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="3701" RasterYSize="1098" DataType="Byte" BlockXSize="3701" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="3701" ySize="1098" />
+      <DstRect xOff="0" yOff="0" xSize="3701" ySize="1098" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/home/lemon_king/Documents/Programmering/QGIS/QGIS-Training-Data-master/exercise_data/raster/3320D_2010_315_RGB_LATLNG.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="1089" RasterYSize="1093" DataType="Byte" BlockXSize="1089" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1089" ySize="1093" />
+      <DstRect xOff="3641.70758540116" yOff="4.60570637880264" xSize="1089" ySize="1093" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/home/lemon_king/Documents/Programmering/QGIS/QGIS-Training-Data-master/exercise_data/raster/3420B_2010_328_RGB_LATLNG.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="1098" RasterYSize="3039" DataType="Byte" BlockXSize="1098" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1098" ySize="3038.61074145557" />
+      <DstRect xOff="3637.96152652801" yOff="1024.38925854443" xSize="1098" ySize="3038.61074145557" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/home/lemon_king/Documents/Programmering/QGIS/QGIS-Training-Data-master/exercise_data/raster/3420C_2010_327_RGB_LATLNG.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="3714" RasterYSize="3012" DataType="Byte" BlockXSize="3714" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="3714" ySize="3012" />
+      <DstRect xOff="0.984897352094785" yOff="1050.48968985156" xSize="3714" ySize="3012" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="4">
+    <ColorInterp>Alpha</ColorInterp>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/home/lemon_king/Documents/Programmering/QGIS/QGIS-Training-Data-master/exercise_data/raster/3320C_2010_314_RGB_LATLNG.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="3701" RasterYSize="1098" DataType="Byte" BlockXSize="3701" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="3701" ySize="1098" />
+      <DstRect xOff="0" yOff="0" xSize="3701" ySize="1098" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/home/lemon_king/Documents/Programmering/QGIS/QGIS-Training-Data-master/exercise_data/raster/3320D_2010_315_RGB_LATLNG.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="1089" RasterYSize="1093" DataType="Byte" BlockXSize="1089" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1089" ySize="1093" />
+      <DstRect xOff="3641.70758540116" yOff="4.60570637880264" xSize="1089" ySize="1093" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/home/lemon_king/Documents/Programmering/QGIS/QGIS-Training-Data-master/exercise_data/raster/3420B_2010_328_RGB_LATLNG.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="1098" RasterYSize="3039" DataType="Byte" BlockXSize="1098" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1098" ySize="3038.61074145557" />
+      <DstRect xOff="3637.96152652801" yOff="1024.38925854443" xSize="1098" ySize="3038.61074145557" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/home/lemon_king/Documents/Programmering/QGIS/QGIS-Training-Data-master/exercise_data/raster/3420C_2010_327_RGB_LATLNG.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="3714" RasterYSize="3012" DataType="Byte" BlockXSize="3714" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="3714" ySize="3012" />
+      <DstRect xOff="0.984897352094785" yOff="1050.48968985156" xSize="3714" ySize="3012" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
